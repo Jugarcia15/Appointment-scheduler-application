@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MainCustomerController">
+   <children>
+      <TableView fx:id="MainCustomerTable" layoutX="24.0" layoutY="25.0" prefHeight="480.0" prefWidth="814.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="50.0">
+         <columns>
+            <TableColumn fx:id="columnId" maxWidth="1.7976931348623157E308" prefWidth="30.0" text="ID" />
+            <TableColumn fx:id="columnName" maxWidth="1.7976931348623157E308" prefWidth="121.0" text="Name" />
+            <TableColumn fx:id="columnPhone" maxWidth="1.7976931348623157E308" prefWidth="116.0" text="Phone" />
+            <TableColumn fx:id="columnPostalCode" maxWidth="1.7976931348623157E308" prefWidth="105.0" text="Postal Code" />
+            <TableColumn fx:id="columnCity" maxWidth="1.7976931348623157E308" prefWidth="90.0" text="City" />
+            <TableColumn fx:id="columnCountry" maxWidth="1.7976931348623157E308" prefWidth="87.0" text="Country" />
+         </columns>
+      </TableView>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="559.0" prefHeight="50.0" prefWidth="200.0" spacing="75.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="AddCustomerButton" defaultButton="true" mnemonicParsing="false" onAction="#AddCustomerButtonPushed" text="%manage.newButton" />
+            <Button fx:id="ModifyCustomerButton" defaultButton="true" mnemonicParsing="false" onAction="#ModifyCustomerButtonPushed" text="%manage.editButton" />
+            <Button fx:id="DeleteCustomerButton" defaultButton="true" mnemonicParsing="false" onAction="#DeleteButtonPushed" text="%manage.deleteButton" />
+         </children>
+      </HBox>
+      <Button fx:id="CustomerCancelButton" cancelButton="true" layoutX="665.0" layoutY="497.0" mnemonicParsing="false" onAction="#CancelButtonPushed" text="%manage.cancelButton" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+   </children>
+</AnchorPane>
