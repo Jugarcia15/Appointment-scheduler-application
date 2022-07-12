@@ -7,4 +7,10 @@ Arizona; New York, New York; and London, England. The consulting organization ha
 The database is used for other systems and therefore its structure cannot be modified.
 
 Dashboard Screen
+
 ![image](https://user-images.githubusercontent.com/41842178/177836758-a6e62703-4a2b-4aa6-8cfb-e668dda4f837.png)
+
+
+Files
+
+![image](https://user-images.githubusercontent.com/41842178/178401633-5933cce8-4563-49b9-bff0-29108998d32a.png)
