@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AppScheduler">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppScheduler/dist/AppScheduler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
